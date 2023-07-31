@@ -1,0 +1,38 @@
+main{
+    background-color: white;
+    box-shadow: 0 0 10px #7e7e7e;
+    border-radius: 10px;
+}
+
+main > div:first-child{
+    border-bottom: 1px solid #ff822e;
+    box-shadow: 0 2px 2px #ff822e;
+    margin-bottom: 0.3rem;
+}
+
+.grey{
+    color: grey;
+}
+
+main .table{
+    padding: 20px;
+}
+
+.table td:last-child a:hover{
+    display: inline-block;
+    color: #ff822e !important;
+    transform: scale(1.3);
+    transition: all 50ms linear;
+}
+
+a[disabled] {
+    pointer-events: none;
+}
+
+.green{
+    color: yellowgreen !important;
+}
+
+.red{
+    color: red !important;
+}

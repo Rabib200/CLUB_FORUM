@@ -1,0 +1,56 @@
+@import url(../assets/css/bootstrap.min.css);
+@import url(../assets/css/all.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+* {
+  margin: 0;
+  padding: 0;
+  --main-color: #ff8a00;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(../../assets/img/main.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body > div {
+  min-height: 60vh;
+  max-width: 40%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(133, 133, 133, 0.5);
+  background-color: white;
+  margin-top: 5rem;
+  padding: 0 1rem;
+}
+
+body > div > div a, input[type='submit']{
+    border: 2px solid transparent;
+    text-decoration: none;
+    background-color: #ff8a00;
+    color: white;
+    border-radius: 10px;
+}
+body > div > div a:hover{
+    border: 2px solid #ffffff;
+    background-color: red;
+    color: #ffffff !important;
+    transform: scale(1.2);
+    transition: all ease-in 100ms;
+}
+
+input[type='submit']:hover{
+    border: 2px solid #ffffff;
+    background-color: yellowgreen;
+    color: #ffffff !important;
+    transform: scale(1.2);
+    transition: all ease-in 100ms;
+}
+
+table {
+  margin: auto;
+  margin-top: 3rem;
+  border: 5px solid #ffa53e !important;
+}

@@ -1,0 +1,26 @@
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #4e4e4e;
+    margin: auto;
+}
+
+main>h4 {
+    border-bottom: 1px solid #ffb2598e;
+    box-shadow: 0 3px 5px #ffb2598e;
+}
+
+main form {
+    padding: 20px;
+}
+
+.form-floating:focus-within .form-control {
+    box-shadow: 0px 0px 8px 2px var(--main-color);
+    border: 1px solid #fe9e3157;
+}
+
+.form-floating textarea {
+    height: 250px !important;
+    resize: none;
+    overflow: auto;
+}

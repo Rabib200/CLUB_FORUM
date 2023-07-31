@@ -1,0 +1,112 @@
+* {
+  font-family: Inter;
+}
+body {
+  background-image: url(Awaited-Dreams-scaled.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.middle1 {
+  background-color: #c3a368a4;
+  width: 1300px;
+  height: 650px;
+  margin: auto;
+  padding-bottom: 1rem;
+  margin-top: 80px;
+}
+.middle1 input {
+  border: white;
+  width: 1000px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.inner {
+  background-color: rgba(255, 255, 255, 0.692);
+  width: 1000px;
+  margin: auto;
+  max-height: 550px;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+
+.inner::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+}
+
+.inner::-webkit-scrollbar-thumb {
+  background-color: #ffbb6e;
+  border-radius: 10px;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed; 
+  border-radius: 20px;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+tbody {
+  width: 100%;  
+}
+
+
+
+.inner button {
+  height: 40px;
+  margin-left: 0px;
+  width: 100px;
+  border: none;
+  color: white;
+  background-color: rgb(78, 61, 61);
+  border-radius: 15px;
+}
+button:hover {
+  background-color: #c3a368a4;
+  border: 2px solid black;
+  color: black;
+}
+
+th, td {
+  text-align: center !important;
+}
+
+td > div{
+  gap: 0.5rem;
+}
+
+td a{
+  border-radius: 10px;
+}
+
+td > div > a:first-child{
+  color: red;
+  border: 1px solid red;
+  padding: 5px;
+} 
+
+td > div > a:first-child:hover{
+  background-color: red;
+  border-color: white;
+  color: white;
+}
+
+td > div > a:last-child{
+  color: yellowgreen;
+  border: 1px solid yellowgreen;
+  padding: 5px;
+} 
+
+td > div > a:last-child:hover{
+  background-color: yellowgreen;
+  border-color: white;
+  color: white;
+}

@@ -1,0 +1,40 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+* {
+  font-family: Inter;
+  box-sizing: border-box;
+  --main-color: #ff8a00;
+}
+
+body {
+  background-image: url(Awaited-Dreams-scaled.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body > form {
+  width: 800px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+form > input[type="submit"] {
+  margin-left: auto;
+  display: inherit;
+  color: white;
+  border: 2px solid transparent;
+  background-color: var(--main-color);
+  padding: 5px 2rem;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+form > input[type = "submit"]:hover{
+  border: 2px solid #FEA031;
+  color: black;
+  background-color: transparent;
+}

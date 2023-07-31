@@ -1,0 +1,95 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+* {
+  margin: 0;
+  padding: 0;
+  --main-color: #ff8a00;
+  text-decoration: none;
+}
+
+.color-accent {
+  color: #fea031;
+}
+
+body {
+  background-image: url(../img/main.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+form h1 {
+  font-size: 3rem;
+}
+
+form {
+  width: 500px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form input[type="submit"] , .s_btn{
+  display: inherit;
+  color: white;
+  border: 2px solid transparent;
+  background-color: var(--main-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+form input[type="submit"]:hover {
+  border: 2px solid #fea031;
+  color: black;
+  background-color: transparent;
+}
+
+.s_btn{
+  text-decoration: none;
+  background-color: transparent;
+  border: 2px solid #fea031;
+  color: black;
+}
+
+.s_btn:hover {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.form-floating:focus-within .form-control {
+  box-shadow: 0px 0px 8px 2px var(--main-color);
+  border: 1px solid #fea031;
+}
+
+input[type="submit"]:disabled {
+  background-color: #7c7c7c;
+  border: 2px solid black;
+}
+
+input[type="submit"]:disabled:hover {
+  background-color: #7c7c7c;
+  border: 2px solid white;
+  color: white;
+}
+
+.form-check-input:checked {
+  background-color: #fea031;
+  border: none;
+}
+
+#pass_val p{
+  color: #e7810c;
+}
+
+#pass_val ul{
+  list-style: circle !important;
+}

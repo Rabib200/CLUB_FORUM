@@ -1,0 +1,2 @@
+1. start working from line 63 in mainpage.php
+2. line 63 te $_GET['id'] te prblm_id pass kora hocche. ekhn individual page e prblm show korte hobe

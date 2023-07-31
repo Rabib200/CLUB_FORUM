@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --main-color: #ff8a00;
+  text-decoration: none;
+}
+
+main {
+  width: 50%;
+  background-color: white;
+  border-radius: 30px;
+}
+
+section:not(:last-child) {
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #a7a7a7;
+}
+
+section span:not([contenteditable="true"]) {
+  font-size: 1.3rem;
+  color: #ff8800;
+}
+
+section button,
+input[type="submit"]:not(:disabled) {
+  background-color: #ff9f31;
+  border: 2px solid transparent;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+section button:hover,
+input[type="submit"]:not(:disabled):hover {
+  background-color: transparent;
+  color: #ff8800;
+  border: 2px solid #ff8800;
+}
+
+input[type="submit"]:disabled {
+  border-radius: 10px;
+  border: 2px dotted #ff8800;
+}
+
+.rounded-img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 10px #ff8800;
+}
+
+#changeCred .form-floating:focus-within .form-control {
+  box-shadow: 0px 0px 8px 2px var(--main-color);
+  border: 1px solid #fea031;
+}
+
+#credentials>div {
+  max-width: 30rem;
+}
+
+#pass_val p {
+  color: #e7810c;
+}
+
+#pass_val ul {
+  list-style: circle !important;
+}
+
+#personal figure{
+  position: relative;
+}
+
+#edit-btn {
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: start;
+  align-items: center;
+}
+
+#edit-btn > div{
+  background-color: #ff9e30;
+  border-radius: 10px;
+  color: white;
+}
+
+#edit-btn span{
+  color: white;
+}
+#edit-btn > div:hover{
+  transform: scale(1.1);
+  transition: all 10ms linear;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+#edit-btn form{
+  box-shadow: 0 0 10px #e7810c;
+  border-radius: 10px;
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#edit-btn form input[type="submit"] {
+  font-size: 0.9rem;
+  border-radius: 5px;
+}
+
+.rotate{
+  rotate: 90deg;
+  transition: all 50ms ease-in;
+} 

@@ -1,0 +1,65 @@
+main{
+    width: 90%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.671);
+    margin: 5rem auto;
+    border-radius: 10px;
+}
+
+main > div{
+    border-bottom: 2px solid #0000003b;
+    padding-bottom: 10px;
+}
+
+.btn_c{
+    
+    display: inline-block;
+    text-decoration: none;
+    color: #ff8c00;
+    background-color: transparent;
+    border: 2px solid #ff8c00;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.btn_c:hover{
+    color: #000000;
+    border: 2px solid white;
+    background-color: #ffb964;
+}
+
+.btn_cancel:hover{
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+.hover_tilt:hover{
+    transform: scale(1.1) translateX(10px);
+    transition: all 50ms linear;
+}
+
+table td:last-child > div{
+    gap: 10px;
+}
+
+table td:last-child a{
+    color: #ff8c00;
+    padding: 2px;
+    border-radius: 3px;
+}
+table td:last-child a:hover{
+    transform: scale(1.1);
+    transition: all 10ms ease-in;
+}
+
+.red:hover{
+    color: red;
+    box-shadow: 0 0 10px red;
+}
+
+.green:hover{
+    color: yellowgreen;
+    box-shadow: 0 0 10px yellowgreen;
+}

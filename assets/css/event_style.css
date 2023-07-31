@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/main.png);
+    background-size: cover;
+    background-position: relative;
+    background-repeat: no-repeat;
+
+}
+
+body > div:first-child > a{
+    text-decoration: none;
+    background-color: #ffa14a;
+    color: white;
+    border: 3px solid transparent;
+    font-size: 1.3rem;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+body > div:first-child > a:hover{
+    background-color: red;
+    box-shadow: 0 0 10px red;
+    border-color: white;
+}
+
+.btn_c{
+    text-decoration: none;
+    background-color: #ffa14a;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.btn_c:hover{
+    color: white;
+    box-shadow: 0 0 10px #ffa14a;
+    transform: scale(1.2);
+    border: 1px solid white;
+    transition: all 50ms linear;
+}
+
+.btn_d{
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    color: black;
+    background-color: grey;
+    border: none;
+}
+
+.btn_d:hover{
+    color: black;
+    transform: none;
+    transition: none;
+    box-shadow: none;
+}
+
+.text p{
+    font-weight: 600;
+    color: white;
+    width: 200px;
+    margin-bottom: 2px;
+}
+
+
+.text{
+    margin-left: 20px;
+    margin-top: 27px;
+}
+
+button{
+    background: #000000;
+    opacity: 0.9;
+    border: none;
+    color: black;
+    font-size: 1rem;
+    border-radius: 20px;
+    transition: 0.2s ease;
+}
+.bar{
+    display: flex;
+}
+.bar2{
+    background-color: hsla(22, 42%, 47%, 0.504);
+    margin-top: 1rem;
+    width: 90%;
+    padding: 0px 4rem;
+    box-shadow: 0 0 5px black;
+}
+.cover img{
+    object-fit: cover;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #393939;
+}
+.sec1{
+    width: 80%;
+}
+.sec1 h3{
+    font-weight: 1700;
+}
+
+.sec1 > p:last-child span{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.benefits{
+    width: 80%;
+    display: flex;
+
+}
+.benefits p{
+    margin-left: 10px;
+}
+
+.total{
+    gap: 1rem;
+}
+
+.total h5:last-child{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button{
+        background-color: hsla(18, 83%, 2%, 0.885);
+        color: white;
+        border: none;
+        border-radius: 20px !important;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

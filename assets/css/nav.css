@@ -1,0 +1,234 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+* {
+  margin: 0;
+  padding: 0;
+  --main-color: #ff8a00;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(../img/main.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.orange{
+  color: var(--main-color);
+}
+
+#overlay {
+  width: 0%;
+  height: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 99999;
+  background-color: rgba(0, 0, 0, 0.792);
+  top: 70px;
+  overflow: hidden;
+}
+
+.slide {
+  animation: slide 200ms forwards;
+}
+
+#overlay menu {
+  width: 20%;
+  color: white;
+  background-color: rgba(101, 97, 100, 0.98);
+  height: 100%;
+  padding-top: 1px;
+  border-top: 3px solid white;
+}
+
+#overlay menu > ol {
+  list-style: none;
+}
+
+#overlay menu li {
+  gap: 0.3rem;
+  margin-top: 0.4rem;
+  background-color: rgba(199, 199, 199, 0.51);
+}
+
+#overlay menu li a {
+  text-decoration: none;
+  padding: 10px 1.2rem;
+  color: black;
+}
+
+#overlay menu li a:hover {
+  background-color: white;
+  color: var(--main-color);
+}
+
+#overlay menu li:is(.active) {
+  background-color: white;
+}
+
+#overlay menu li:is(.active) a {
+  color: var(--main-color);
+}
+
+#overlay menu li p {
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+nav {
+  background-color: rgba(10, 0, 0, 0.6);
+  color: white;
+}
+
+#profile > div {
+  width: max-content;
+  cursor: pointer;
+}
+
+#profile > div > .user {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#search input {
+  padding: 11px 5px;
+}
+
+#notification a {
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+  background-color: rgba(217, 217, 217, 1);
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+#notification a:hover {
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
+  background-color: white;
+}
+
+#notification > div > div {
+  position: relative;
+}
+
+#notification .fa-bell {
+  font-size: 2rem;
+}
+
+#notification > div > div span {
+  position: absolute;
+  left: 16px;
+  top: -10px;
+  background-color: white;
+  color: black;
+  width: 26px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+@keyframes slide {
+  0% {
+    width: 0%;
+  }
+
+  10% {
+    width: 10%;
+  }
+
+  20% {
+    width: 20%;
+  }
+
+  30% {
+    width: 30%;
+  }
+
+  40% {
+    width: 40%;
+  }
+
+  50% {
+    width: 50%;
+  }
+
+  60% {
+    width: 60%;
+  }
+
+  70% {
+    width: 70%;
+  }
+
+  80% {
+    width: 80%;
+  }
+
+  90% {
+    width: 90%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes slide-reverse {
+  0% {
+    width: 100%;
+  }
+
+  10% {
+    width: 90%;
+  }
+
+  20% {
+    width: 80%;
+  }
+
+  30% {
+    width: 70%;
+  }
+
+  40% {
+    width: 60%;
+  }
+
+  50% {
+    width: 50%;
+  }
+
+  60% {
+    width: 40%;
+  }
+
+  70% {
+    width: 30%;
+  }
+
+  80% {
+    width: 20%;
+  }
+
+  90% {
+    width: 10%;
+  }
+
+  100% {
+    width: 0%;
+  }
+}

@@ -1,0 +1,148 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+* {
+    margin: 0;
+    padding: 0;
+    --main-color: #FF8A00;
+}
+
+body {
+    background-image: url("../img/main.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.top h2 {
+    font-size: 3rem;
+}
+
+.top span , .event-info > h2 span, #founder > h2 > span{
+    color: var(--main-color);
+}
+
+#info {
+    min-height: 13rem;
+    background-color: rgba(4, 2, 0, 0.5);
+    color: white;
+}
+
+#info h1 {
+    font-size: 2.5rem;
+    min-height: max-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#info>div {
+    background-color: rgba(217, 116, 43, 0.7);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#info>div p {
+    font-size: 1.5rem;
+    max-width: 85%;
+    margin: auto;
+    font-weight: 300;
+}
+
+#info>div a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: var(--main-color);
+    background-color: white;
+    border-radius: 100px;
+    display: block;
+    width: max-content;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#info>div a:hover{
+    background-color: black;
+    color: white;
+}
+
+#carousel  > div{
+    min-height: 20rem;
+    background-color: rgba(4, 2, 0, 0.5);
+    color: white;
+}
+
+#carousel > h2 , #founder > h2{
+    border-bottom: 5px solid rgba(251, 158, 49, 0.8) ;
+    margin: auto;
+    width: max-content;
+    padding: 0 1rem 0 1rem;
+}
+
+.event-info > *{
+    width: 90%;
+    margin-left: auto;
+    text-align: start;
+}
+
+.event-info > p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+#footer-header{
+    background-color: rgba(253, 161, 49, 0.618);
+}
+
+#footer-header ul{
+    padding-left: 1rem !important;
+}
+
+#footer-header a{
+    text-decoration: none;
+    color: black;
+}
+
+#footer-header a:hover{
+    font-weight: bold;
+}
+
+#footer-header a .fa-square-facebook:hover{
+    color: rgb(0, 82, 190);
+}
+#footer-header a .fa-square-twitter:hover{
+    color: rgb(69, 137, 226);
+}
+#footer-header a .fa-youtube:hover{
+    color: red;
+}
+
+#footer{
+    max-height: max-content;
+    background-color: black;
+    color: white;
+}
+
+
+.rounded-img {
+    object-fit: cover;
+    --size : 200px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    border: 3px solid var(--main-color);
+  }
+
+
+@media (min-width: 992px){
+    .carousel{
+        height: 20rem;
+    }
+    
+    .carousel .carousel-inner{
+        height: 20rem;
+    }
+}
+
